@@ -1,0 +1,9 @@
+{
+  "event_id": "sample-014-001",
+  "event_type": "PLAN_DECLARED",
+  "aggregate_type": "vehicle_profile",
+  "aggregate_id": "vehicle_modification_pass-001",
+  "occurred_at": "2026-09-20T18:00:00+08:00",
+  "version": 1,
+  "summary": "登记汽车改装合规通行证的首条领域记录"
+}
