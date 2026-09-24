@@ -23,7 +23,25 @@
         "PART_BOUND",
         "WORK_ATTESTED",
         "INSPECTION_SIGNED",
-        "PASS_ACTIVATED"
+        "PASS_ACTIVATED",
+        "CERTIFICATION_SUSPENDED",
+        "IMPACT_SCOPED",
+        "MATCHING_CONFIRMED",
+        "HOLDING_PLACED",
+        "REINSPECTION_REQUIRED",
+        "REPLACEMENT_REQUIRED",
+        "APPEAL_FILED",
+        "ADMINISTRATIVE_STAYED",
+        "ADMINISTRATIVE_RESUMED",
+        "PART_REPLACED",
+        "CERTIFICATION_EFFECT_RESTORED",
+        "OWNERSHIP_TRANSFERRED",
+        "NOTIFICATION_DELIVERED",
+        "INSPECTION_REPORT_RECEIVED",
+        "REINSPECTION_SIGNED",
+        "INSPECTION_DISPUTED",
+        "PROCESS_SUSPENDED",
+        "PROCESS_RESUMED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +50,13 @@
         "vehicle_profile",
         "modification_plan",
         "inspection_decision",
-        "compliance_pass"
+        "compliance_pass",
+        "part_certification",
+        "impact_case",
+        "appeal",
+        "ownership_history",
+        "inspection_evidence",
+        "process_clock"
       ]
     },
     "aggregate_id": {
