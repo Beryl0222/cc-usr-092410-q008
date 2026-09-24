@@ -20,19 +20,55 @@
       "type": "string",
       "enum": [
         "PLAN_DECLARED",
+        "MODEL_DECLARED",
+        "VEHICLE_REGISTERED",
+        "CERTIFICATE_REGISTERED",
+        "CERTIFICATE_SUSPENDED",
+        "CERTIFICATE_REINSTATED",
+        "PART_SERIAL_REGISTERED",
         "PART_BOUND",
         "WORK_ATTESTED",
         "INSPECTION_SIGNED",
-        "PASS_ACTIVATED"
+        "INSPECTION_RESULT_RECEIVED",
+        "PASS_ACTIVATED",
+        "FREEZE_SCOPE_DELINEATED",
+        "MATCHING_RULES_CONFIRMED",
+        "DISPOSITION_DECIDED",
+        "PART_QUARANTINED",
+        "PASS_RESTRICTION_IMPOSED",
+        "PART_REPLACED",
+        "PASS_RESTRICTION_LIFTED",
+        "RESTORATION_COMPLETED",
+        "APPEAL_FILED",
+        "APPEAL_DECIDED",
+        "ADMINISTRATIVE_FINALIZATION",
+        "OWNERSHIP_TRANSFERRED",
+        "NOTICE_ISSUED",
+        "PROCESS_PAUSED",
+        "PROCESS_RESUMED",
+        "ESCALATION_SCHEDULED",
+        "ESCALATION_DELIVERED",
+        "DISPUTE_OPENED",
+        "DISPUTE_RESOLVED"
       ]
     },
     "aggregate_type": {
       "type": "string",
       "enum": [
         "vehicle_profile",
+        "model_config",
         "modification_plan",
+        "part_certificate",
+        "part_instance",
+        "work_record",
         "inspection_decision",
-        "compliance_pass"
+        "inspection_report",
+        "compliance_pass",
+        "freeze_case",
+        "appeal",
+        "dispute",
+        "notice",
+        "escalation"
       ]
     },
     "aggregate_id": {
@@ -50,6 +86,9 @@
     "summary": {
       "type": "string",
       "minLength": 1
+    },
+    "payload": {
+      "type": "object"
     }
   },
   "additionalProperties": true
